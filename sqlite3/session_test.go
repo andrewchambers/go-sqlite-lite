@@ -26,7 +26,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bvinc/go-sqlite-lite/sqlite3"
+	"github.com/andrewchambers/go-sqlite-lite/sqlite3"
 )
 
 func initT(t *testing.T, conn *sqlite3.Conn) {
